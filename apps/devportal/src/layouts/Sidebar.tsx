@@ -16,7 +16,6 @@ export const Sidebar = ({ children, showBackground = false, ...rest }: SidebarPr
           top="50"
           overflow={{ base: '', md: 'auto' }}
           shadow={'none'}
-          position={{ base: 'static', md: 'sticky' }}
           display="flex"
           flexFlow="column nowrap"
           as={'div'}
